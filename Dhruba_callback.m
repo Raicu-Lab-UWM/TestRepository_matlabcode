@@ -1,5 +1,5 @@
 % Create the function for the ButtonPushedFcn callback
-function Mike_callback(btn,whichplot,ax)
+function Dhruba_callback(btn,whichplot,ax)
 
 x = linspace(0,6*pi,1000);
 
