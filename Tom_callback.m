@@ -6,7 +6,7 @@ x = linspace(0,2*pi,100);
 
 switch whichplot
     case 0
-        y = 0.75*x;
+        y = 0.5*x;
     otherwise
         disp('other value')
 end
