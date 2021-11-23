@@ -15,4 +15,5 @@ switch whichplot
 end
 C = {'b','r'}; % Cell array of colros.
 plot(ax,x,y,'color',C{whichplot+1})
+value=test;
 end
