@@ -1,3 +1,4 @@
+
 % Create the function for the ButtonPushedFcn callback
 function Dhruba_callback(btn,whichplot,ax)
 
@@ -16,3 +17,4 @@ end
 C = {'b','r','g'}; % Cell array of colros.
 plot(ax,x,y,'color',C{whichplot+1})
 end
+
