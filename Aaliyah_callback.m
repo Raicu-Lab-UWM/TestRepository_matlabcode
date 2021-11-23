@@ -1,3 +1,4 @@
+
 % Create the function for the ButtonPushedFcn callback
 function Aaliyah_callback(btn,whichplot,ax)
 
@@ -9,3 +10,4 @@ y = sin(3*t);
 plot(ax,x,y,'b')
 
 end
+

@@ -1,3 +1,4 @@
+
 % Create the function for the ButtonPushedFcn callback
 function Tom_callback(btn,whichplot,ax)
 
@@ -14,3 +15,4 @@ C = {'b','r'}; % Cell array of colros.
 plot(ax,x,y,'color',C{whichplot+1})
 
 end
+
