@@ -11,6 +11,6 @@ switch whichplot
         disp('Other value')
 
 end
-C = 'g'; % Color of line
+C = 'c'; % Color of line
 plot(ax,x,y,'color',C)
 end
