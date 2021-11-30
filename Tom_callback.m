@@ -6,7 +6,9 @@ x = linspace(0,2*pi,100);
 
 switch whichplot
     case 0
-        y = 0.7*x;
+        y = 1.5*x;
+    case 1
+        y = 1.5*x^2;
     otherwise
         disp('other value')
 end
