@@ -6,7 +6,7 @@ for ii=1:length(x)
     if x(ii) < pi
         y(ii) = sin(x(ii));
     else
-        y(ii) = -sin(x(ii));
+        y(ii) = -sin(x(ii))+0.5; % 0.5 is added here.
     end
 end
 
