@@ -2,7 +2,7 @@
 % Create the function for the ButtonPushedFcn callback
 function Tom_callback(btn,whichplot,ax)
 
-x = linspace(0,3*pi,100);
+x = linspace(0,3.5*pi,100);
 switch whichplot
     case 0
         y = sin(0.5*x);
